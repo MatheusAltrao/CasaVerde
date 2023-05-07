@@ -1,0 +1,63 @@
+.promotionCard {
+  width: 100%;
+  max-width: 365px;
+  height: 200px;
+
+  background-color: #fff;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border-radius: 8px;
+
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3);
+
+  overflow: hidden;
+
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.promotionCard:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.promotionCard .left .image {
+  height: 100%;
+  transition: all 0.3s ease;
+
+}
+
+.promotionCard:hover .image {
+  transform: scale(1.2);
+}
+
+
+.promotionCard .right {
+  padding: 1rem;
+}
+
+.promotionCard .right .title {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.promotionCard .right .subtitle {
+  font-size: 16px;
+
+  margin-bottom: 2rem;
+}
+
+.btn-promotion {
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.arrow {
+  font-size: 22px;
+}
