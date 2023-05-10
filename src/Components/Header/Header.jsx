@@ -15,7 +15,6 @@ const Header = () => {
         </div>
 
         <ul className='header-list subtitle'>
-          <li><a href="#">Como Fazer</a></li>
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Depoimentos</a></li>
           <li><a href="#">Videos</a></li>
