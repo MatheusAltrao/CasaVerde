@@ -17,7 +17,6 @@ const Header = () => {
         <ul className='header-list subtitle'>
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Depoimentos</a></li>
-          <li><a href="#">Videos</a></li>
           <li><a href="#">Carrinho</a></li>
         </ul>
       </div>
