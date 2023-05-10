@@ -8,7 +8,7 @@ const Newslatter = () => {
 
       <input className='input-newsletter' type="text" placeholder='Insira seu e-mail' />
       <MdOutlineEmail className='icon-email opacity' />
-      <button className='buttton-newsletter subtitle'>Assinar Newsletter</button>
+      <button className='buttton-newsletter subtitle'>Assinar</button>
     </div>
   )
 }

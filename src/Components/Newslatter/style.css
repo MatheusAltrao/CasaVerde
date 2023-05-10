@@ -13,12 +13,11 @@
   font-size: 28px;
   color: var(--text-color);
   left: 20px;
-
   transition: all 0.3s ease;
 }
 
 .input-newsletter {
-  height: 72px;
+  height: 48px;
 
   width: 24.43rem;
   border: none;
@@ -35,7 +34,7 @@
 }
 
 .buttton-newsletter {
-  height: 72px;
+  height: 48px;
   width: 100%;
   width: 12.12rem;
 
@@ -55,15 +54,7 @@
 }
 
 @media (width<700px) {
-  .newsletter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    flex-direction: column;
-
-    width: 100%;
-  }
 
   .input-newsletter {
     width: 100%;
@@ -75,7 +66,7 @@
     font-size: 28px;
     color: var(--text-color);
     left: 20px;
-    top: 25px;
+    top: 10px;
 
     transition: all 0.3s ease;
 
@@ -84,7 +75,8 @@
 
   .buttton-newsletter {
 
-    width: 100%;
+    width: 100px;
+
     border-radius: 0px;
 
   }
