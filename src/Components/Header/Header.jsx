@@ -18,7 +18,7 @@ const Header = () => {
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Depoimentos</a></li>
           <li><a href="#">Videos</a></li>
-          <li><a href="#">Meu Carrinho</a></li>
+          <li><a href="#">Carrinho</a></li>
         </ul>
       </div>
     </header>
