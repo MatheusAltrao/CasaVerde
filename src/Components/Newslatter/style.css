@@ -18,8 +18,8 @@
 
 .input-newsletter {
   height: 48px;
-
-  width: 24.43rem;
+  width:100%;
+  max-width: 24.43rem;
   border: none;
   background-color: #fff;
   padding-left: 4rem;
@@ -57,7 +57,7 @@
 
 
   .input-newsletter {
-    width: 100%;
+    width: 200px;
     border-radius: 0px;
   }
 
